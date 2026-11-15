@@ -83,7 +83,7 @@ firebase emulators:start
 | **Rekap Presensi** | `index.html` (Tab Rekap) | Panel rekap kehadiran harian untuk admin/resepsionis di lokasi kelas (`/member?admin=true`). |
 | **Data Mengulang** | `index.html` (Tab Mengulang) | Pantauan khusus daftar siswa yang hadir mengulang/remedial kelas. |
 | **Download Sertifikat** | `member-attendance.js` | Siswa yang sudah lulus dapat langsung mengunduh sertifikat resmi (format PDF/SVG). |
-| **Ekspor Excel** | `export-helper.js` | Mengunduh data rekap kehadiran dan data remedial ke file spreadsheet Excel (.xlsx). |
+
 
 ---
 
