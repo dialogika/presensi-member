@@ -57,16 +57,13 @@ Portal presensi siswa live di alamat resmi **`https://dialogika.co/member`** yan
 > ⚠️ **Catatan Penting Path Aset (Relative Path):**  
 > Semua tag referensi aset di `index.html` (gambar, CSS, script JS) **wajib menggunakan path relatif** (`./assets/...`), bukan path absolut (`/assets/...`). Hal ini agar aset terpanggil dengan benar dari subfolder `/member/` dan tidak memicu error 404 saat dibuka maupun di-refresh.
 
-### 2. Standalone Development & Firebase Emulators
+### 2. Firebase Emulators
 Untuk keperluan pengujian lokal menggunakan Firebase Emulator Suite:
 ```bash
 # Menjalankan emulator lokal (Hosting port 5001 & Firestore)
 firebase emulators:start
 ```
-Jika ingin mendeploy instance standalone ke Firebase Hosting project `dialogika-co`:
-```bash
-firebase deploy --only hosting
-```
+
 
 ### 3. Database & Keamanan
 * **Database:** Terhubung otomatis ke Google Cloud Firestore project `dialogika-co`.
