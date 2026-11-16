@@ -8,7 +8,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>Presensi Member - Dialogika</title>
-  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp" />
+  <link rel="icon" type="image/webp" href="./assets/img/favicon.webp" />
 
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,8 +23,8 @@
   <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
 
   <!-- Theme & Foundation CSS -->
-  <link rel="stylesheet" href="/assets/css/theme.css" />
-  <link rel="stylesheet" href="/assets/css/member-attendance.css?v=102.0" />
+  <link rel="stylesheet" href="./assets/css/theme.css" />
+  <link rel="stylesheet" href="./assets/css/member-attendance.css?v=103.0" />
 </head>
 
 <body>
@@ -34,8 +34,8 @@
     <div class="attendance-navbar">
       <div class="attendance-navbar-content flex justify-center items-center">
         <div class="brand-badge-wrap flex items-center justify-center gap-3 mx-auto">
-          <a href="/member" class="flex items-center gap-3 no-underline">
-            <img src="/assets/img/logo.webp" alt="Dialogika" class="h-8 md:h-9 w-auto object-contain" />
+          <a href="./" class="flex items-center gap-3 no-underline">
+            <img src="./assets/img/logo.webp" alt="Dialogika" class="h-8 md:h-9 w-auto object-contain" />
             <div class="border-l border-slate-200 pl-3 hidden sm:block text-left">
               <p class="text-xs font-bold text-slate-800 leading-tight">Portal Presensi</p>
               <p class="text-[11px] text-slate-400 font-medium leading-tight">Siswa &amp; Member</p>
@@ -100,7 +100,8 @@
                 </label>
                 <div class="phone-input-group dlg-modern-phone-group">
                   <div class="country-code-pill">
-                    <span>🇮🇩 +62</span>
+                    <span class="country-flag-icon">🇮🇩</span>
+                    <span>+62</span>
                   </div>
                   <input type="tel" id="inputPhoneNumber" class="phone-input-control" placeholder="812-3456-7890"
                     autocomplete="tel" maxlength="16" required />
@@ -398,7 +399,7 @@
   </div>
 
   <!-- Feature Logic Orchestrator (ES Module) -->
-  <script type="module" src="/assets/js/member-attendance.js?v=102.0"></script>
+  <script type="module" src="./assets/js/member-attendance.js?v=102.0"></script>
 </body>
 
 </html>
