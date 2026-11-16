@@ -19,7 +19,7 @@ member/
 │
 ├── assets/
 │   ├── css/
-│   │   ├── member-attendance.css        # Styling UI portal presensi, badge, dan modal
+│   │   ├── member-attendance.css        # Styling UI portal presensi, badge, dan modal sertifikat
 │   │   └── theme.css                    # Variabel tema, warna brand, dan font Dialogika
 │   ├── img/
 │   │   ├── favicon.webp                 # Favicon resmi Dialogika
@@ -29,10 +29,8 @@ member/
 │       ├── firebase-config.js           # Inisialisasi Firebase SDK & Cloud Firestore
 │       ├── member-attendance.js         # Orchestrator logika presensi, view switching, & check-in
 │       ├── member-attendance.repository.js # Jembatan Firestore (data_member, attendance, certificates)
-│       ├── member-attendance.ui.js      # Komponen tampilan: kartu kelas, rekap, & modal ekspor
-│       ├── mentor-management.repository.js # Integrasi data master coach/mentor
-│       └── utils/
-│           └── export-helper.js         # Helper export spreadsheet Excel (.xlsx) & CSV
+│       ├── member-attendance.ui.js      # Komponen tampilan: kartu kelas, rekap, & sertifikat
+│       └── mentor-management.repository.js # Integrasi data master coach/mentor
 │
 └── docs/
     └── MEMBER-ATTENDANCE-ARCHITECTURE.md # Dokumentasi teknis & arsitektur database lengkap
@@ -115,5 +113,4 @@ firebase emulators:start
 
 * **Frontend:** Vanilla JavaScript (Modern ES Modules), Tailwind CSS, Bootstrap Icons
 * **Database & Cloud:** Google Cloud Firestore (Real-Time Database), Firebase Hosting / GitHub Pages
-* **Spreadsheet Engine:** ExcelJS v4.4.0 (Export Excel berformat rapi & CSV)
 * **Design & Typography:** Google Fonts (Montserrat & Poppins)

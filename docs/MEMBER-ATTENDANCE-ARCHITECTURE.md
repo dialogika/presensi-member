@@ -16,8 +16,8 @@
   4. Sistem memeriksa histori kehadiran siswa di koleksi `member_attendance` untuk mendeteksi apakah kehadiran berstatus **Reguler** atau **Mengulang/Remedial ke-N**.
   5. Member memverifikasi kartu identitas dan konfirmasi hadir.
   6. Mencegah presensi ganda (*double submission*) pada tanggal/sesi yang sama.
-  7. Menyediakan tab rekapitulasi kehadiran dengan pemilih tanggal (*date picker*) dan Universal Export Modal (Excel `.xlsx` & CSV `.csv`) berstandar Dialogika Pilot.
-  8. Menyediakan tab khusus data mengulang & remedial lengkap dengan pemilih tanggal (*date picker*) dan Universal Export Modal.
+  7. Menyediakan tab rekapitulasi kehadiran harian dengan pemilih tanggal (*date picker*).
+  8. Menyediakan tab khusus pemantauan data mengulang & remedial lengkap dengan pemilih tanggal (*date picker*).
   9. Menampilkan identitas visual resmi Dialogika (*white-logo.webp wordmark*).
 - **Kemandirian Fitur (Preservation of Existing Features)**:
   - Fitur presensi tim internal (`presence.html` dan `pages/hr/presence-team/`) **tidak diubah**.
